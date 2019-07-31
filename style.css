@@ -7,12 +7,6 @@ body {
   font-weight: 100;
   font-size: 15px;
 }
-@media (min-width: 960px) {
-  /* For a screen < 960px, this CSS will be read */
-  .white-background img {
-    width: 400px;
-    height: 400px;
-  }
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
