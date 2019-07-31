@@ -42,8 +42,6 @@ body {
 .white-background img {
   padding: 3px;
   margin-bottom: 20px;
-  width: 200px;
-  height: 200px;
   border-radius: 50%;
   max-width: 100%;
 }
