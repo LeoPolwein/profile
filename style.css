@@ -35,7 +35,6 @@ body {
 .white-background{
   background-color: #6C637A;
   border-radius: 20px;
-  box-shadow: 2px 2px 3px white;
   padding: 50px;
   margin: 15px;
 }
@@ -46,6 +45,11 @@ body {
   width: 400px;
   height: 400px;
   border-radius: 50%;
+  max-width: 100%;
+}
+
+iframe {
+  max-width: 100%;
 }
 
 h1 {
@@ -112,7 +116,6 @@ a {
 .gif-text{
   background-color: #6C637A;
   border-radius: 20px;
-  box-shadow: 2px 2px 3px white;
   padding: 50px;
   margin: 15px;
 }
