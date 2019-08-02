@@ -8,36 +8,6 @@ body {
   font-size: 15px;
 }
 
-@media (max-width: 960px) {
-  /* For a screen < 960px, this CSS will be read */
-  .container {
-    width: 700px;
-  }
-  .white-background img {
-    width: 400px;
-    height: 400px;
-  }
-}
-@media (max-width: 720px) {
-  /* For a screen < 720px, this CSS will be read */
-  .container {
-    width: 500px;
-  }
-  .white-background img {
-    width: 300px;
-    height: 300px;
-  }
-}
-@media (max-width: 540px) {
-  /* For a screen < 540px, this CSS will be read */
-  .container {
-    width: 300px;
-  }
-  .white-background img {
-    width: 200px;
-    height: 200px;
-  }
-
 }
 .container{
   margin: 0 auto;
@@ -134,3 +104,33 @@ a {
 .footer {
   padding: 50px;
 }
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+  .white-background img {
+    width: 400px;
+    height: 400px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+  .white-background img {
+    width: 300px;
+    height: 300px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+  .white-background img {
+    width: 200px;
+    height: 200px;
+  }
